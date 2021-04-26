@@ -53,6 +53,6 @@ $factory->define(App\Employee::class, function (Faker\Generator $faker) {
         'date_hired' => \Carbon\Carbon::now()->format('Y-m-d'),
         'department_id' => $department->id,
         'division_id' => $division->id,
-        'picture' => '../avatars/default.jpg'
+        'picture' => '../avatars/default.png'
     ];
 });
